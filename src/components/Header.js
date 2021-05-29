@@ -58,8 +58,10 @@ const Header = (props) => {
             <User>
               <a>
                 <img src="/images/user.svg" alt="" />
-                <span>Me</span>
-                <img src="/images/down-icon.svg" alt="" />
+                <div className="name">
+                  <span>Me</span>
+                  <img src="/images/down-icon.svg" alt="" />
+                </div>
               </a>
               <SignOut>
                 <a>Sign Out</a>
@@ -69,8 +71,10 @@ const Header = (props) => {
             <Work>
               <a>
                 <img src="/images/nav-work.svg" alt="" />
-                <span>Work</span>
-                <img src="/images/down-icon.svg" alt="" />
+                <div className="name">
+                  <span>Work</span>
+                  <img src="/images/down-icon.svg" alt="" />
+                </div>
               </a>
             </Work>
           </NavListWrap>
@@ -241,6 +245,17 @@ const User = styled(NavList)`
   span {
     display: flex;
     align-items: center;
+  }
+
+  .name {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    img {
+      height: 14px;
+      width: 14px;
+    }
   }
 
   &:hover {
