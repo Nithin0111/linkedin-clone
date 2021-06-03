@@ -154,6 +154,8 @@ const Container = styled.div`
   color: black;
   background-color: rgba(0, 0, 0, 0.8);
   animation: fadeIn 0.3s;
+  overflow-x: hidden;
+  overflow-y: scroll;
 `;
 
 const Content = styled.div`
