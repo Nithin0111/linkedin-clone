@@ -1,3 +1,6 @@
+# Live Version available here
+[https://linkedin-clone-aeccb.web.app/](https://linkedin-clone-aeccb.web.app/)
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
