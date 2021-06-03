@@ -108,7 +108,7 @@ const Content = styled.div`
   align-items: center;
   margin: 0 auto;
   min-height: 100%;
-  max-width: 1128px;
+  max-width: 80%;
 `;
 
 const Logo = styled.span`
